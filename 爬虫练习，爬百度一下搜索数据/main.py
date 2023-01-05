@@ -13,3 +13,4 @@ resp = requests.get(url, headers=head)
 
 print(resp)
 print(resp.text)
+resp.close()

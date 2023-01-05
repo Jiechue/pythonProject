@@ -9,3 +9,4 @@ data = {
 resp = requests.post(url, data=data)
 if resp:
     print(resp.json())
+resp.close()
